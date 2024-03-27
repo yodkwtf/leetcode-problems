@@ -10,5 +10,5 @@ var isPalindrome = function(x) {
         reversedStr += str[i];
     }
     
-    return str === reversedStr;
+    return reversedStr === str;
 };

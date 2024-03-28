@@ -5,9 +5,9 @@
 var longestCommonPrefix = function (strs) {
     let commonPrefix = strs[0];
 
-    for (let word of strs) {
+    for (let c=1;c<strs.length;c++) {
         for (let i = 0; i <= commonPrefix.length; i++) {
-            if (word[i] !== commonPrefix[i]) {
+            if (strs[c][i] !== commonPrefix[i]) {
                 if (i === 0) {
                     return ""
                 }

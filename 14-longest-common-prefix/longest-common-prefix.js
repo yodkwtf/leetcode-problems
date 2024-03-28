@@ -19,7 +19,7 @@ var longestCommonPrefix = function (strs) {
     return commonPrefix;
 };
 
-//- better
+// better
 // var longestCommonPrefix = function(strs) {
 //   if (!strs.length) return '';
 //   let prefix = '';
